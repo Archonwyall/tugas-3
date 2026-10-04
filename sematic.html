@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Digital Responsive - NAWAL ANGGARA PUTRA</title>
+    <link rel="stylesheet" href="mobile-first.css">
+</head>
+
+<body>
+    <main class="page-wrapper">
+        <!-- Kartu Profil Utama -->
+        <article class="profile-card">
+            <!-- Kolom Kiri / Header Profil -->
+            <header class="card-aside">
+                <button id="btnToggleTema" class="btn-tema">
+                    ☀ Ganti Mode
+                </button>
+                <div class="avatar-box">
+                    <span class="avatar-icon"> </span> 👨‍💻
+                </div>
+                <h1 class="student-name">Nawal Anggara Putra</h1>
+                <p class="student-role">Junior Web Developer</p>
+                <p class="student-school">SMKS BRANTAS KARANGKATES</p>
+                <p class="student-school">PPLG/RPL</p>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nawal.xrpl@gmail.com" id="btnKontak"
+                    class="btn-contact">Kirim
+                    Pesan</a>
+                    <button id="btnSkill" class="btn-tema">📊 Lihat Skill</button>
+            </header> <!-- Kolom Kanan / Konten Detail -->
+            <section class="card-content">
+                <div class="bio-section">
+                    <h2 class="section-heading">Tentang Saya</h2>
+                    <p class="bio-text">
+                        Siswa kelas 10 pengembangan perangkat Lunak dan gim yang berfokus mendalami Kelas Industri
+                        Junior Web
+                        Developer — SMK RPL 2026/2027 | Modul Minggu 02 — Responsive Web Design & Flexbox 7 arsitektur
+                        Front-End modern, tata letak CSS Flexbox, serta prinsip Mobile-First Responsive Design standar
+                        industri. </p>
+                </div>
+                <div class="progress-section">
+                    <h2 class="section-heading">Tingkat Penguasaan</h2>
+
+                    <div class="progress-item">
+                        <span class="skill-label">HTML5</span>
+                        <div class="progress-bar-bg">
+                            <div class="progress-fill" data-progress="85%"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="progress-item">
+                        <span class="skill-label">CSS3/Mobile-first CSS</span>
+                        <div class="progress-bar-bg">
+                            <div class="progress-fill" data-progress="80%"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="skill-label">Flexbox & Responsive</span>
+                        <div class="progress-bar-bg">
+                            <div class="progress-fill" data-progress="80%"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+
+                    <div class="progress-item">
+                        <span class="skill-label">JavaScript (DOM)</span>
+                        <div class="progress-bar-bg">
+                            <div class="progress-fill" data-progress="65%"></div>
+                        </div>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h2 class="section-heading">Keahlian & Kompetensi</h2>
+                    <div class="skill-matrix">
+                        <div class="skill-badge">HTML5 Semantic</div>
+                        <div class="skill-badge">CSS3 Flexbox</div>
+                        <div class="skill-badge">Responsive Design</div>
+                        <div class="skill-badge">Media Queries</div>
+                        <div class="skill-badge">Chrome DevTools</div>
+                        <div class="skill-badge">Git & GitHub (Next)</div>
+                        <div class="skill-badge">JavaScript</div>
+                    </div>
+                    <div class="skills-section">
+                        <h2 class="section-heading">SERTIFIKASI</h2>
+                        <div class="project-highlights">
+                            <div class="skill-badge">Sertifikat Coding Front-End</div>
+                            <div class="skill-badge">Sertifikat Visual Studio Code</div>
+                        </div>
+                    </div>
+            </section>
+        </article>
+    </main>
+    <div id="modalKontak" class="modal-overlay">
+        <div class="modal-box">
+            <h2>Kirim Pesan</h2>
+            <p>Silakan hubungi saya melalui email: siswa@sekolah.sch.id</p>
+            <button id="btnTutupModal" class="btn-tutup">Tutup</button>
+        </div>
+    </div>
+    <script src="script.java"></script>
+</body>
+
+</html>
