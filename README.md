@@ -17,3 +17,4 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 - Tampilan responsif dengan Flexbox dan *media query* serta menambahkan js
 
 ## Teknologi
+- dibuat oleh Nawal anggara putra,smks brantas karangkates
